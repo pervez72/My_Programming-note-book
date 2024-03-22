@@ -21,7 +21,7 @@
             }
         }
 
-* Array specefic inedex value out:
+* Array specefic inedex value get:
     //must be first declear int index=0; 
     then apply this line otherwise store garbase value; 
 
