@@ -6,7 +6,7 @@ int main(){
 
     if (n>=1 && n<=pow(10,6))
     {
-        string number;
+        string number;  //kkm
         cin>>number;
         
         
