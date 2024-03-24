@@ -7,7 +7,8 @@ int main(){
 
     if (n>=1 && n<=pow(10,6))
         {
-       char a[n];
+       char ch[n];
+       int a[n];
 
     //    for (int i = 0; i<n; i++)
     //    {
@@ -18,7 +19,7 @@ int main(){
 
         for (int i= 0; i <n; i++)
         {
-            cin>>a[i];
+            cin>>ch[i];
             // if (a[i]>='0' && a[i]<='9')
             // {
             //     a[i]=a[i];
@@ -26,7 +27,18 @@ int main(){
             
         }
 
+        for (int i=0; i<n; i++)
+        {
+            a[i]=int(ch[i]);
+            a[i]=a[i]-48;
+        }
         
+
+        int sum=0;
+        for (int i =0; i<n; i++)
+        {
+            sum=sum+a[i];
+        }
         
 
 
@@ -34,12 +46,12 @@ int main(){
 
 
        //output array
-       for (int i = 0; i <n; i++)
-       {
-        cout<<a[i]<<" ";
-       }
+    //    for (int i = 0; i <n; i++)
+    //    {
+    //     cout<<a[i]<<" ";
+    //    }
        
-
+        cout<<sum<<"\n";
 
 
 }
