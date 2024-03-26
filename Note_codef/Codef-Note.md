@@ -42,4 +42,9 @@
     int y=int(ch)-48;
     output: 5 that is integer
 
-* 
+* Permutation is Sequences: 
+
+    So, for a set of “n” distinct elements, you can generate “n!” (n factorial) permutations. The number of permutations grows rapidly as “n” increases. For example, if you have 3 elements, there are 3! = 6 permutations, but if you have 4 elements, there are 4! = 24 permutations, and so on.
+
+    The array [2, 1, 3], [3, 2, 1] and [2, 3, 1] are permutation of the array [1, 2, 3].
+
