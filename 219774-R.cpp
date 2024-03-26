@@ -2,7 +2,8 @@
 using namespace std;
 
 int main(){
-    int n,k=0;
+    // all value sort and check equal or not equal
+        int n,k=0;
     cin>>n;
     if (n>=1 && n<=1000)
     {
@@ -22,7 +23,6 @@ int main(){
     } //get b input
     sort(b,b+n);
     
-    
         for (int i =0; i<n; i++)
         {
             if(a[i]!=b[i]){
@@ -33,8 +33,7 @@ int main(){
         
     }
 
-    
-    if(k==0) cout<<"yes";
+    if(k==0) cout<<"yes"; 
      else cout<<"no";
     }
    
