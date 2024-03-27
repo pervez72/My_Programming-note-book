@@ -1,16 +1,5 @@
-*****************General Section******************
-* when array input not only array also input do not use break and interput condition.
 
-* 
-
-
-
-
-
-
-
-
-*******************Array******************
+*******************Array_BASIC****************
 * Array Condition based input get=
         for (int i=0; i<n; i++)
         {
@@ -57,6 +46,11 @@
     int y=int(ch)-48;
     output: 5 that is integer
 
+
+
+
+
+*******************Array_CP***************
 * Permutation in Array: 
     So, for a set of “n” distinct elements, you can generate “n!” (n factorial) permutations. The number of permutations grows rapidly as “n” increases. For example, if you have 3 elements, there are 3! = 6 permutations, but if you have 4 elements, there are 4! = 24 permutations, and so on.
 
@@ -76,5 +70,3 @@
     Swap elements to generate the next permutation.
     Update the indices.
     Continue until all permutations are generated
-
-*   
