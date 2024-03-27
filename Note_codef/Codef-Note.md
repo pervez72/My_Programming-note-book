@@ -77,4 +77,6 @@
     Update the indices.
     Continue until all permutations are generated
 
-*   
+
+
+*****************************STRING********************************
