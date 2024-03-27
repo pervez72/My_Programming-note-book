@@ -1,14 +1,3 @@
-*****************General Section******************
-* when array input not only array also input do not use break and interput condition.
-
-* 
-
-
-
-
-
-
-
 
 *******************Array******************
 * Array Condition based input get=
@@ -76,7 +65,3 @@
     Swap elements to generate the next permutation.
     Update the indices.
     Continue until all permutations are generated
-
-
-
-*****************************STRING********************************
