@@ -30,9 +30,10 @@ int main(){
     
     reverse(strat_index,end_index) >> reverse
     
-    iterator() >> less time complexity.it point vector memory index like pointer
+    iterator() >> less time complexity.it point vector memory index like pointer.
+
     Example iteration:
-    vector<int>v1={1,2,3,4,5}
+    vector<int>v1={1,2,3,4,5};
     vector<int>::iterator iterator_name;
     iterator_name=v1.begin()+0;
     cout<<*iterator_name;
