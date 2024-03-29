@@ -2,11 +2,7 @@
 using namespace std;
 
 int main(){
-
-    string s1;
-    cin.getline(s1,'/');
-    
-
-
+    string s;
+    cin>>s;
 
 }
