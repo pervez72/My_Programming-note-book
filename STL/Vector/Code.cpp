@@ -29,17 +29,13 @@ int main(){
     sort(strat_index,end_index) >> assending sorting
     
     reverse(strat_index,end_index) >> reverse
+    
     iterator() >> less time complexity.it point vector memory index like pointer
     Example iteration:
-    vector<int>v1; 
-    v1.push_back(100);
-    v1.push_back(2);
-    v1.push_back(0);
-    v1.push_back(10);
-
+    vector<int>v1={1,2,3,4,5}
     vector<int>::iterator iterator_name;
-    //iterator_name=v1.begin()+0;
-    //cout<<*iterator_name;
+    iterator_name=v1.begin()+0;
+    cout<<*iterator_name;
     for (iterator_name=v1.begin(); iterator_name<v1.end; iterator_name++)
     {
         cout<<*iterator_name<<" ";
