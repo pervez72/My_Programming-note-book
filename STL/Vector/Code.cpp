@@ -52,7 +52,7 @@ int main(){
     v1.push_back(2);
     v1.push_back(0);
     v1.push_back(10);
-
+    
     vector<int>::iterator iterator_name;
     //iterator_name=v1.begin()+0;
     //cout<<*iterator_name;
