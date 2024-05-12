@@ -1,2 +1,0 @@
-Array note
- rfef
