@@ -7,6 +7,7 @@
         "new": "cpp",
         "any": "cpp",
         "optional": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "random": "cpp"
     }
 }
